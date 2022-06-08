@@ -31,7 +31,7 @@ const Post2 = () => {
             <p>
               Para que pudesse visualizar como os algoritmos da internet
               funcionam e como eles contribuem para o vício do uso das redes
-              sociais, preparamos um breve vídeo sobre o tema, confere abaixo!
+              sociais, preparamos um breve vídeo sobre o tema, confira abaixo!
             </p>
             <iframe
               width='800'
