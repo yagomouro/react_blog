@@ -28,4 +28,14 @@ export const HeaderContent = styled.div`
 
 export const HeaderNav = styled.nav`
   display: flex;
+
+  ul {
+    display: flex;
+    gap: 3rem;
+  }
+
+  a {
+    display: block;
+    font-size: 1.8rem;
+  }
 `;

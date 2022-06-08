@@ -1,8 +1,8 @@
-import { addOtherFeaturedPosts } from '../../common/utils/addOtherFeaturedPosts';
-
 import Header from '../../components/Header';
 import LastPost from '../../components/LastPost';
 import Footer from '../../components/Footer';
+
+import posts from '../../services/data';
 
 import {
   FirstFeaturedPost,
@@ -12,6 +12,7 @@ import {
   OtherFeaturedPostsWrapper,
   LastPosts,
 } from './styles';
+// import { v4 } from 'uuid';
 
 const Home = () => {
   return (
@@ -20,15 +21,24 @@ const Home = () => {
       <MainWrapper>
         <FeaturedPostsWrapper>
           <FirstFeaturedPost>
-            <LastPost className='isFeatured'></LastPost>
+            <LastPost {...posts[0]}></LastPost>
           </FirstFeaturedPost>
           <OtherFeaturedPostsWrapper>
-            {addOtherFeaturedPosts(3)}
+            <LastPost {...posts[1]}></LastPost>
+            <LastPost {...posts[2]}></LastPost>
+            <LastPost {...posts[3]}></LastPost>
           </OtherFeaturedPostsWrapper>
         </FeaturedPostsWrapper>
         <LastPostsWrapper>
           <h1 className='lastPostTitle'>Últimos Posts</h1>
-          <LastPosts>{addOtherFeaturedPosts(6, 'isOtherPost')}</LastPosts>
+          <LastPosts>
+            <LastPost {...posts[4]}></LastPost>
+            <LastPost {...posts[1]} className='isOtherPost'></LastPost>
+            <LastPost {...posts[2]} className='isOtherPost'></LastPost>
+            <LastPost {...posts[0]} className='isOtherPost'></LastPost>
+            <LastPost {...posts[1]} className='isOtherPost'></LastPost>
+            <LastPost {...posts[3]} className='isOtherPost'></LastPost>
+          </LastPosts>
         </LastPostsWrapper>
       </MainWrapper>
       <Footer />

@@ -6,6 +6,7 @@ const Footer = () => {
     <FooterWrapper>
       <FooterContent>
         <img src={logoIcon} alt='logo' />
+        <h1>Made with ❤️ by Grupo Seven</h1>
         <h1>Ⓒ COPYRIGHT 2022 - Grupo 7</h1>
       </FooterContent>
     </FooterWrapper>

@@ -1,8 +1,9 @@
-import Footer from '../../components/Footer';
-import Header from '../../components/Header';
+import Footer from '../../../components/Footer';
+import Header from '../../../components/Header';
 
-import postImage from '../../assets/images/redes_sociais.jpg';
-import { addOtherFeaturedPosts } from '../../common/utils/addOtherFeaturedPosts';
+import postImage from '../../../assets/images/post_3.png';
+
+import { IPost } from '../../../types/IPost';
 
 import {
   ImageWrapper,
@@ -11,16 +12,18 @@ import {
   PostContent,
   PostInfoContainer,
   TextWrapper,
-} from './styles';
+} from '../styles';
+import LastPost from '../../../components/LastPost';
+import posts from '../../../services/data';
 
-const Post = () => {
+const Post3 = ({ authorName }: IPost) => {
   return (
     <>
       <Header />
       <MainWrapper>
         <PostInfoContainer>
-          <h1>Internet das coisas</h1>
-          <span>Talissa Talamoni • 31/05/2022 - 14:09</span>
+          <h1>8 gírias da internet</h1>
+          <span>Carlos Santana • 31/05/2022 - 14:09</span>
           <ImageWrapper>
             <img src={postImage} alt='Imagem do Post' />
           </ImageWrapper>
@@ -72,7 +75,9 @@ const Post = () => {
           </TextWrapper>
           <LastPostsWrapper>
             <span className='lastPostTitle'>Últimos posts</span>
-            {addOtherFeaturedPosts(3, 'isPostPage')}
+            <LastPost {...posts[0]} className='isPostPage'></LastPost>
+            <LastPost {...posts[1]} className='isPostPage'></LastPost>
+            <LastPost {...posts[3]} className='isPostPage'></LastPost>
           </LastPostsWrapper>
         </PostContent>
       </MainWrapper>
@@ -81,4 +86,4 @@ const Post = () => {
   );
 };
 
-export default Post;
+export default Post3;

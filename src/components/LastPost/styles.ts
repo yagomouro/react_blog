@@ -16,10 +16,11 @@ export const ImgWrapper = styled.div`
 export const InfoWrapper = styled.div`
   width: 100%;
   display: flex;
+  gap: 0.5rem;
   flex-direction: column;
   justify-content: center;
   padding: 0 1.6rem;
-  background: #cdbdf922;
+  background: #e8e0fe22;
 
   p {
     font-size: 1.4rem;
@@ -27,7 +28,7 @@ export const InfoWrapper = styled.div`
     color: #d356e4;
   }
   h1 {
-    font-size: 2.2rem;
+    font-size: 1.7rem;
     transition: 0.2s;
 
     &:hover {

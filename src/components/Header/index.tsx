@@ -2,11 +2,11 @@ import { HeaderContainer, HeaderContent, HeaderNav } from './styles';
 import logoIcon from '../../assets/images/logo.png';
 import { Link } from 'react-router-dom';
 
-interface HeaderProps {
-  isLoginPage?: boolean;
-}
+// interface HeaderProps {
+//   isLoginPage?: boolean;
+// }
 
-const Header = ({ isLoginPage = false }: HeaderProps) => {
+const Header = () => {
   return (
     <HeaderContainer>
       <HeaderContent>
@@ -16,16 +16,18 @@ const Header = ({ isLoginPage = false }: HeaderProps) => {
         <HeaderNav>
           <ul>
             <Link to=''>
-              <li>About</li>
+              <li>Sobre</li>
             </Link>
-            <Link to='' target='_blank'>
-              <li>Repositório</li>
+            <Link to=''>
+              <li>Contato</li>
             </Link>
-            {isLoginPage && (
-              <Link to=''>
-                <li>Login</li>
-              </Link>
-            )}
+            <a
+              href='https://github.com/yagomouro/react_blog'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <li>Github</li>
+            </a>
           </ul>
         </HeaderNav>
       </HeaderContent>

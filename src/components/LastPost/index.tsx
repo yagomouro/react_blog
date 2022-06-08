@@ -1,25 +1,35 @@
 import { Link } from 'react-router-dom';
-import postImage from '../../assets/images/redes_sociais.jpg';
+import { IPost } from '../../types/IPost';
 
 import { Container, ImgWrapper, InfoWrapper } from './styles';
 
-interface LastPostPros {
+interface LastPostPros extends IPost {
   className?: string;
 }
 
-const LastPost = ({ className }: LastPostPros) => {
+const LastPost = ({
+  className,
+  authorName,
+  postTitle,
+  postImage,
+  redirectTo,
+}: LastPostPros) => {
   return (
     <Container className={className && className}>
       <ImgWrapper>
-        <Link to='/posts/1'>
-          <img src={postImage} alt='Foto' />
-        </Link>
+        {redirectTo && (
+          <Link to={redirectTo}>
+            <img src={postImage} alt={postTitle} />
+          </Link>
+        )}
       </ImgWrapper>
       <InfoWrapper>
-        <p>Yago Mouro</p>
-        <Link to='/posts/1'>
-          <h1>Internet das coisas</h1>
-        </Link>
+        <p>{authorName}</p>
+        {redirectTo && (
+          <Link to={redirectTo}>
+            <h1>{postTitle}</h1>
+          </Link>
+        )}
       </InfoWrapper>
     </Container>
   );

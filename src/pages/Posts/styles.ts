@@ -44,7 +44,15 @@ export const TextWrapper = styled.div`
   display: flex;
   flex: 7;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
+  h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
+  iframe {
+    margin-top: 2rem;
+  }
 
   p {
     font-size: 1.8rem;

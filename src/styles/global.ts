@@ -144,5 +144,6 @@ body{
 
 main{
     min-height: calc(100vh - 27rem);
+    padding: 0.5rem;
 }
 `;
