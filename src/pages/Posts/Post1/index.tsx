@@ -43,7 +43,7 @@ const Post1 = () => {
               evitá-los, e perceber se algum deles está presente no seu dia a
               dia:
             </p>
-            <h2>#1. Vício</h2>
+            <h2>#1. VÍCIO</h2>
             <p>
               Estamos o tempo todo com o celular ao nosso lado. Automaticamente,
               temos o costume de abrir as redes sociais e ficarmos por lá,
