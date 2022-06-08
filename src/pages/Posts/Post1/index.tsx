@@ -35,13 +35,13 @@ const Post1 = () => {
               a facilidade e rapidez com que as informações atravessam de um
               lado do planeta para o outro, acabamos não percebendo que estamos
               conectados quase todas as horas do nosso dia. Porém, isso pode
-              acarretar problemas mentais e de saúde. É importante prestar
+              acarretar problemas mentais e de saúde. <br />É importante prestar
               atenção em quanto tempo estamos passando nas redes sociais e os
               efeitos que elas estão nos causando, para que possamos nos
-              prevenir e não deixar que essas coisas aconteçam! Convidamos você
-              a conferir com a gente os 5 efeitos das redes sociais e como
-              evitá-los, e perceber se algum deles está presente no seu dia a
-              dia:
+              prevenir e não deixar que essas coisas aconteçam! <br />
+              Convidamos você a conferir com a gente os 5 efeitos das redes
+              sociais e como evitá-los, e perceber se algum deles está presente
+              no seu dia a dia:
             </p>
             <h2>#1. VÍCIO</h2>
             <p>
@@ -52,23 +52,23 @@ const Post1 = () => {
               mesmas redes sociais que acabamos de ver. Essa ação, quando
               repetida várias vezes ao dia, caracteriza um sintoma claro de
               dependência, um problema que reflete diretamente os nossos
-              hábitos. O vício acontece uma vez que as redes sociais são
+              hábitos. <br />O vício acontece uma vez que as redes sociais são
               visualmente atraentes e nos oferecem uma gama quase infinita de
               conteúdo, mas a sua principal causa está ligada na forma como elas
               funcionam, pensadas para promover a repetição de seu uso por meio
-              de algumas características que todas elas têm em comum. Um dos
-              principais aspectos é o botão de “curtir”, da qual o usuário, ao
-              compartilhar uma foto ou comentar uma publicação, recebe um
-              retorno capaz de causar um sentimento equivalente a ganhar
-              dinheiro e outras recompensas sociais responsáveis por liberar
-              substâncias químicas em nosso cérebro que aguçam a sensação de
-              “querer mais”. E por sermos altamente sociais, isso gera
-              vulnerabilidades mentais na tentativa de buscar suprir uma
-              carência inesgotável por validação. Dessa forma, embora ainda não
-              haja um diagnóstico formal que caracterize o vício em redes
-              sociais, é evidente que isso é um problema que têm afetado cada
-              vez mais pessoas e por isso é importante achar alternativas para
-              combatê-lo.
+              de algumas características que todas elas têm em comum. <br />
+              Um dos principais aspectos é o botão de “curtir”, da qual o
+              usuário, ao compartilhar uma foto ou comentar uma publicação,
+              recebe um retorno capaz de causar um sentimento equivalente a
+              ganhar dinheiro e outras recompensas sociais responsáveis por
+              liberar substâncias químicas em nosso cérebro que aguçam a
+              sensação de “querer mais”. E por sermos altamente sociais, isso
+              gera vulnerabilidades mentais na tentativa de buscar suprir uma
+              carência inesgotável por validação. <br />
+              Dessa forma, embora ainda não haja um diagnóstico formal que
+              caracterize o vício em redes sociais, é evidente que isso é um
+              problema que têm afetado cada vez mais pessoas e por isso é
+              importante achar alternativas para combatê-lo.
             </p>
             <h2>#1. COMO EVITÁ-LO</h2>
             <p>
@@ -89,7 +89,7 @@ const Post1 = () => {
               se dá a partir do momento que o usuário desatento clica em um link
               ou e-mail fraudulento, normalmente contendo o direcionamento para
               uma página falsa de banco, rede social ou site de entretenimento.
-              A partir do momento que a pessoa digita as informações, o
+              <br />A partir do momento que a pessoa digita as informações, o
               cibercriminoso ganha acesso a todos os dados da vítima,
               requisitando na maioria das vezes uma quantia para resgaste.
             </p>
@@ -120,12 +120,13 @@ const Post1 = () => {
               publicada, pois existem sites que possuem o intuito de espalhar
               fake news. Logo, busque sempre buscar a notícia em portais que tem
               mais credibilidade e pesquise a notícia na internet para ver a sua
-              veracidade, se atentando sempre em olhar a sua fonte. Outro ponto
-              crucial é ler a notícia completa, pois muitos utilizam títulos e
-              manchetes não condizentes com a realidade ou sensacionalistas,
-              fazendo com que seja necessário ler a matéria completa. Abaixo,
-              podemos ver um infográfico que demonstra o alto grau de uso e
-              influência das redes sociais no mundo e no Brasil!
+              veracidade, se atentando sempre em olhar a sua fonte. <br />
+              Outro ponto crucial é ler a notícia completa, pois muitos utilizam
+              títulos e manchetes não condizentes com a realidade ou
+              sensacionalistas, fazendo com que seja necessário ler a matéria
+              completa. <br />
+              Abaixo, podemos ver um infográfico que demonstra o alto grau de
+              uso e influência das redes sociais no mundo e no Brasil!
             </p>
             <img className='infografico' src={infografico} alt='Infográfico' />
             <p>
@@ -140,13 +141,13 @@ const Post1 = () => {
               jovens não estão satisfeitos com a sua imagem física corporal,
               principalmente jovens do sexo feminino que estão na adolescência
               ou início da fase adulta, e que até 9 em cada 10 garotas
-              adolescentes estão descontentes com seus corpos. A pesquisa mostra
-              os resultados de estudos como o da The British Association of
-              Aesthetic Plastic Surgeons, sugerindo que as mídias sociais estão
-              por trás da necessidade das meninas de alterarem suas aparências
-              através de cirurgias estéticas para ficarem melhor nas fotos,
-              apontando para uma porcentagem de 70% das pessoas de 18 a 24 anos
-              que realizariam o procedimento.
+              adolescentes estão descontentes com seus corpos.
+              <br /> A pesquisa mostra os resultados de estudos como o da The
+              British Association of Aesthetic Plastic Surgeons, sugerindo que
+              as mídias sociais estão por trás da necessidade das meninas de
+              alterarem suas aparências através de cirurgias estéticas para
+              ficarem melhor nas fotos, apontando para uma porcentagem de 70%
+              das pessoas de 18 a 24 anos que realizariam o procedimento.
             </p>
             <h2>#4. COMO EVITÁ-LOS</h2>
             <p>
@@ -154,6 +155,7 @@ const Post1 = () => {
               realizada por meio da interação na plataforma com outros usuários
               ou grupos para apoio emocional. A mesma pesquisa sugere que o
               Facebook é o local onde os usuários recebem maior apoio emocional.
+              <br />
               Procurar um grupo na rede e interagir com pessoas que estão
               passando por esses problemas ou que desejam ajudar é uma boa
               ideia. Quando se juntam em páginas ou grupos do mesmo interesse,
@@ -168,12 +170,13 @@ const Post1 = () => {
               nos usuários (principalmente nos jovens). Uma pesquisa realizada
               no Canadá com jovens entre 11 e 20 anos mostraram que 59,6% dos
               meninos e 67,9% das meninas dormem pouco, podendo desenvolver
-              transtornos de sono mais rapidamente e de forma mais severa. Jean
-              Ragnini, médico neurologista, diz que o ritmo biológico do usuário
-              pode ser afetado e desregulado, por conta das células presentes na
-              retina que ajudam o cérebro a regular o relógio biológico. Além
-              disso, são problemas recorrentes de pessoas que usam
-              excessivamente as redes sociais (principalmente no período
+              transtornos de sono mais rapidamente e de forma mais severa.{' '}
+              <br />
+              Jean Ragnini, médico neurologista, diz que o ritmo biológico do
+              usuário pode ser afetado e desregulado, por conta das células
+              presentes na retina que ajudam o cérebro a regular o relógio
+              biológico. Além disso, são problemas recorrentes de pessoas que
+              usam excessivamente as redes sociais (principalmente no período
               noturno) a insônia, ansiedade, o Transtorno do Déficit de Atenção
               e Hiperatividade (TDAH), trazendo dificuldades de aprendizado,
               dores nas pernas e no corpo e etc.
@@ -194,13 +197,15 @@ const Post1 = () => {
               Nós sabemos que é muito divertido navegar pelo Facebook e
               Instagram, mas devemos estar alertas, pois não podemos deixar que
               as redes sociais ocupem todo o nosso tempo e afetem nossa
-              qualidade de vida. Devemos deixar espaço para outras atividades e
-              hobbies que são positivos para o nosso bem-estar. Sair com os
-              amigos, ler um livro novo, praticar um esporte, aproveitar um
-              pôr-do-sol ou caminhar na praia sem os dispositivos são opções
-              interessantes e muito benéficas para nós. Sempre que sentir algum
-              desses efeitos, corre aqui para a página e confere a forma de
-              evitá-lo para tentar colocar em prática!
+              qualidade de vida. <br />
+              Devemos deixar espaço para outras atividades e hobbies que são
+              positivos para o nosso bem-estar. Sair com os amigos, ler um livro
+              novo, praticar um esporte, aproveitar um pôr-do-sol ou caminhar na
+              praia sem os dispositivos são opções interessantes e muito
+              benéficas para nós.
+              <br /> Sempre que sentir algum desses efeitos, corre aqui para a
+              página e confere a forma de evitá-lo para tentar colocar em
+              prática!
             </p>
             <h2 className='referencia'>
               REFERÊNCIAS BIBLIOGRÁFICAS (MATÉRIA):
