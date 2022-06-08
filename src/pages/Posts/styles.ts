@@ -46,7 +46,7 @@ export const TextWrapper = styled.div`
   flex-direction: column;
   gap: 1rem;
   h2 {
-    font-size: 2rem;
+    font-size: 2.1rem;
     margin-top: 2rem;
   }
 
@@ -67,7 +67,7 @@ export const TextWrapper = styled.div`
   }
 `;
 
-export const LastPostsWrapper = styled.div`
+export const LastPostsWrapper = styled.aside`
   flex: 3;
   display: flex;
   flex-direction: column;

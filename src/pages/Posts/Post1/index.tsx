@@ -103,11 +103,11 @@ const Post1 = () => {
               se dá a partir do momento que o usuário desatento clica em um link
               ou e-mail fraudulento, normalmente contendo o direcionamento para
               uma página falsa de banco, rede social ou site de entretenimento.
-              <p>
-                A partir do momento que a pessoa digita as informações, o
-                cibercriminoso ganha acesso a todos os dados da vítima,
-                requisitando na maioria das vezes uma quantia para resgaste.
-              </p>
+            </p>
+            <p>
+              A partir do momento que a pessoa digita as informações, o
+              cibercriminoso ganha acesso a todos os dados da vítima,
+              requisitando na maioria das vezes uma quantia para resgaste.
             </p>
             <h2>#2. COMO EVITÁ-LOS </h2>
             <p>
@@ -214,8 +214,10 @@ const Post1 = () => {
               posteriores.
             </p>
             <h2>
-              VIU SÓ COMO É IMPORTANTE ESTARMOS ATENTOS AOS EFEITOS DAS REDES
-              SOCIAIS?
+              {/* VIU SÓ COMO É IMPORTANTE ESTARMOS ATENTOS AOS EFEITOS DAS REDES
+              SOCIAIS? */}
+              Viu só como é importante estarmos atentos aos efeitos das redes
+              sociais?
             </h2>
             <p>
               Nós sabemos que é muito divertido navegar pelo Facebook e
@@ -234,9 +236,7 @@ const Post1 = () => {
               Sempre que sentir algum desses efeitos, corre aqui para a página e
               confere a forma de evitá-lo para tentar colocar em prática!
             </p>
-            <h2 className='referencia'>
-              REFERÊNCIAS BIBLIOGRÁFICAS (MATÉRIA):
-            </h2>
+            <h2 className='referencia'>REFERÊNCIAS BIBLIOGRÁFICAS:</h2>
 
             <p>
               CNN BRASIL. Carência por like está quimicamente relacionada ao
