@@ -2,6 +2,7 @@ import Footer from '../../../components/Footer';
 import Header from '../../../components/Header';
 
 import postImage from '../../../assets/images/post_1.png';
+import infografico from '../../../assets/images/infografico.png';
 
 import posts from '../../../services/data';
 
@@ -126,7 +127,13 @@ const Post1 = () => {
               podemos ver um infográfico que demonstra o alto grau de uso e
               influência das redes sociais no mundo e no Brasil!
             </p>
-            <img src='' alt='' />
+            <img className='infografico' src={infografico} alt='Infográfico' />
+            <p>
+              Destaca-se atenção para a porcentagem de brasileiros usuários das
+              redes sociais, que chega a ser 66% da população nacional e a
+              utilização destas plataformas como meio de informação pela maioria
+              dos brasileiros.
+            </p>
             <h2>#4. PROBLEMAS DE AUTOIMAGEM: </h2>
             <p>
               Pesquisa da Royal Society for Public Health aponta que muitos
@@ -194,6 +201,60 @@ const Post1 = () => {
               interessantes e muito benéficas para nós. Sempre que sentir algum
               desses efeitos, corre aqui para a página e confere a forma de
               evitá-lo para tentar colocar em prática!
+            </p>
+            <h2 className='referencia'>
+              REFERÊNCIAS BIBLIOGRÁFICAS (MATÉRIA):
+            </h2>
+
+            <p>
+              CNN BRASIL. Carência por like está quimicamente relacionada ao
+              vício, alerta especialista, 30 de out. de 2020. Disponível em
+              https://www.cnnbrasil.com.br/tecnologia/carencia-por-like-esta-quimicamente-relacionada-ao-vicio-alerta-especialista/.
+              Acesso em: 07 de jun. de 2022.
+            </p>
+            <p>
+              ROYAL SOCIETY FOR PUBLIC HEALTH. #StatusOfMind: Social Media and
+              Young People’s Mental Health and Wellbeing, maio de 2017.
+              Disponível em:
+              https://www.rsph.org.uk/static/uploaded/d125b27c-0b62-41c5-a2c0155a8887cd01.pdf.
+              Acesso em: 07 de jun. de 2022.
+            </p>
+            <p>
+              TCA Informática. Segurança na Web: como evitar golpes e ataques de
+              hackers. Disponível em:
+              https://www.tca.com.br/blog/seguranca-na-web-como-evitar-golpes-e-ataques-de-hackers/.
+              Acesso em: 07 de jun. de 2022.
+            </p>
+            <p>
+              PSICÓLOGO E TERAPIA. Vício em redes sociais e seus impactos no dia
+              a dia. Disponível em:
+              https://www.psicologoeterapia.com.br/blog/vicio-em-redes-sociais-e-seus-impactos-no-dia-a-dia/.
+              Acesso em: 07 de jun. de 2022.
+            </p>
+            <p>
+              PSICOLOGIA DOCKHORN. Como se livrar do vício em redes sociais.
+              Disponível em:
+              https://psicologiadockhorn.com/blog/vicio-em-redes-sociais/.
+              Acesso em: 07 de jun. de 2022.
+            </p>
+            <p>
+              APPTUTS.NET. O que são fake news e 10 dicas para evitá-las.
+              Disponível em:
+              https://www.apptuts.net/tutorial/web/fake-news-dicas-para-evita-las/
+              . Acesso em: 07 de jun. de 2022.
+            </p>
+            <p>
+              BITTENCOURT, ANA P. Redes sociais e qualidade do sono: tempo
+              demais na internet faz você dormir mal? 22 de out. de 2019.
+              Disponível em:
+              https://comparaplano.com.br/blog/redes-sociais-e-qualidade-do-sono/
+              . Acesso em: 07 de jun. de 2022.{' '}
+            </p>
+            <p>
+              VITA CHECKUP CENTER. Conheça os fatores que interferem no sono com
+              qualidade. Disponível em:
+              https://vitacheckup.com.br/2019/01/conheca-os-fatores-que-interferem-no-sono-com-qualidade/
+              . Acesso em: 07 de jun. de 2022.
             </p>
           </TextWrapper>
           <LastPostsWrapper>

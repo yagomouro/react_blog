@@ -58,6 +58,12 @@ export const TextWrapper = styled.div`
     font-size: 1.8rem;
     word-break: break-word;
   }
+  .infografico {
+    margin-top: 3rem;
+  }
+  .referencia {
+    margin-top: 5rem;
+  }
 `;
 
 export const LastPostsWrapper = styled.div`
