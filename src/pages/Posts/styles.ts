@@ -57,6 +57,7 @@ export const TextWrapper = styled.div`
   p {
     font-size: 1.8rem;
     word-break: break-word;
+    text-align: justify;
   }
   .infografico {
     margin-top: 3rem;
