@@ -31,8 +31,8 @@ const posts = [
     redirectTo: '/posts/4',
   },
   {
-    authorName: 'Yago Mouro',
-    postTitle: 'Byung-Chul Han e a crítica da sociedade do cansaço',
+    authorName: 'Grupo Sete',
+    postTitle: 'A história da internet',
     postImage: postImg_5,
     className: 'isOtherPost',
     redirectTo: '/posts/5',

@@ -22,8 +22,8 @@ const Post5 = ({ authorName }: IPost) => {
       <Header />
       <MainWrapper>
         <PostInfoContainer>
-          <h1>Byung-Chul Han e a crítica da sociedade do cansaço</h1>
-          <span>Yago Mouro • 31/05/2022 - 14:09</span>
+          <h1>A história da internet</h1>
+          <span>Grupo Sete • 31/05/2022 - 14:09</span>
           <ImageWrapper>
             <img src={postImage} alt='Imagem do Post' />
           </ImageWrapper>
@@ -31,46 +31,9 @@ const Post5 = ({ authorName }: IPost) => {
         <PostContent>
           <TextWrapper>
             <p>
-              Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa
-              de bebadis, arcu quam euismod magna.Nec orci ornare consequat.
-              Praesent lacinia ultrices consectetur. Sed non ipsum
-              felis.Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non
-              tellus tristique interdum.Casamentiss faiz malandris se pirulitá.
-            </p>
-            <p>
-              Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa
-              de bebadis, arcu quam euismod magna.Nec orci ornare consequat.
-              Praesent lacinia ultrices consectetur. Sed non ipsum
-              felis.Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non
-              tellus tristique interdum.Casamentiss faiz malandris se pirulitá.
-            </p>
-            <p>
-              Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa
-              de bebadis, arcu quam euismod magna.Nec orci ornare consequat.
-              Praesent lacinia ultrices consectetur. Sed non ipsum
-              felis.Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non
-              tellus tristique interdum.Casamentiss faiz malandris se pirulitá.
-            </p>
-            <p>
-              Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa
-              de bebadis, arcu quam euismod magna.Nec orci ornare consequat.
-              Praesent lacinia ultrices consectetur. Sed non ipsum
-              felis.Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non
-              tellus{' '}
-            </p>
-            <p>
-              Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa
-              de bebadis, arcu quam euismod magna.Nec orci ornare consequat.
-              Praesent lacinia ultrices consectetur. Sed non ipsum
-              felis.Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non
-              tellus tristique interdum.Casamentiss faiz malandris se pirulitá.
-            </p>
-            <p>
-              Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa
-              de bebadis, arcu quam euismod magna.Nec orci ornare consequat.
-              Praesent lacinia ultrices consectetur. Sed non ipsum
-              felis.Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non
-              tellus{' '}
+              No podcast de hoje do Podsete, vamos falar um pouquinho sobre as
+              origens da internet, alguns recursos obsoletos e novidades
+              tecnológicas muito bacanas. Confira abaixo:
             </p>
           </TextWrapper>
           <LastPostsWrapper>
