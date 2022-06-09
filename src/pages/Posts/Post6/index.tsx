@@ -1,7 +1,7 @@
 import Footer from '../../../components/Footer';
 import Header from '../../../components/Header';
 
-import postImage from '../../../assets/images/post_5.png';
+import postImage from '../../../assets/images/post_6.png';
 
 import { IPost } from '../../../types/IPost';
 
@@ -16,13 +16,13 @@ import {
 import LastPost from '../../../components/LastPost';
 import posts from '../../../services/data';
 
-const Post5 = ({ authorName }: IPost) => {
+const Post6 = ({ authorName }: IPost) => {
   return (
     <>
       <Header />
       <MainWrapper>
         <PostInfoContainer>
-          <h1>PODCAST - A história da internet</h1>
+          <h1>PODCAST - A sociedade do cansaço</h1>
           <span>Grupo Sete • 31/05/2022 - 14:09</span>
           <ImageWrapper>
             <img src={postImage} alt='Imagem do Post' />
@@ -31,14 +31,15 @@ const Post5 = ({ authorName }: IPost) => {
         <PostContent>
           <TextWrapper>
             <p>
-              No podcast de hoje do Podsete, vamos falar um pouquinho sobre as
-              origens da internet, alguns recursos obsoletos e novidades
-              tecnológicas muito bacanas. Confira abaixo:
+              No podcast de hoje do Podsete, vamos falar um pouquinho sobre a
+              obra Sociedade do Cansaço, de Byung-Chul Han, e conversaremos a
+              respeito de comos as redes sociais impactam em nossas vidas.
+              Confira abaixo:
             </p>
             <iframe
-              title='Podcast PODSETE'
               className='podcast'
-              src='https://open.spotify.com/embed/episode/45Q063FH8wX3UwmaHvvHGE?utm_source=generator&theme=0'
+              title='Podcast PODSETE'
+              src='https://open.spotify.com/embed/episode/3KoDYL60JeSsgln91TJEjZ?utm_source=generator&theme=0&t=0'
               width='100%'
               height='232'
               frameBorder='0'
@@ -47,7 +48,7 @@ const Post5 = ({ authorName }: IPost) => {
           </TextWrapper>
           <LastPostsWrapper>
             <span className='lastPostTitle'>Últimos posts</span>
-            <LastPost {...posts[5]} className='isPostPage'></LastPost>
+            <LastPost {...posts[4]} className='isPostPage'></LastPost>
             <LastPost {...posts[3]} className='isPostPage'></LastPost>
             <LastPost {...posts[2]} className='isPostPage'></LastPost>
           </LastPostsWrapper>
@@ -58,4 +59,4 @@ const Post5 = ({ authorName }: IPost) => {
   );
 };
 
-export default Post5;
+export default Post6;

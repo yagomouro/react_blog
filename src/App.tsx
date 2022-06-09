@@ -6,6 +6,7 @@ import Post2 from './pages/Posts/Post2';
 import Post3 from './pages/Posts/Post3';
 import Post4 from './pages/Posts/Post4';
 import Post5 from './pages/Posts/Post5';
+import Post6 from './pages/Posts/Post6';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/posts/3' element={<Post3 />} />
         <Route path='/posts/4' element={<Post4 />} />
         <Route path='/posts/5' element={<Post5 />} />
+        <Route path='/posts/6' element={<Post6 />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>

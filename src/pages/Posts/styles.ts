@@ -79,6 +79,11 @@ export const TextWrapper = styled.div`
     object-fit: contain;
     object-position: left;
   }
+
+  .podcast {
+    border-radius: 12px;
+    margin-top: 5rem;
+  }
 `;
 
 export const LastPostsWrapper = styled.aside`

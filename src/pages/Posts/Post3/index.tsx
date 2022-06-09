@@ -75,7 +75,7 @@ const Post3 = ({ authorName }: IPost) => {
               -- Gostou desse jogo? <br />
               -- Old que não, achei os gráficos ruins.
             </p>
-            <img className='giria' src={giria1} alt='' />
+            <img className='giria' src={giria1} alt='imagem da giria' />
             Fonte: Twitter
             <h2>#2. POSER</h2>
             <p>
@@ -94,7 +94,7 @@ const Post3 = ({ authorName }: IPost) => {
               -- Clark Kent? <br />
               -- Que poser! Esse é o nome do Super-Homem.{' '}
             </p>
-            <img className='giria' src={giria2} alt='' />
+            <img className='giria' src={giria2} alt='imagem da giria' />
             <h2>#3. FLOP</h2>
             <p>
               Flop é um termo comum da língua inglesa e significa em português
@@ -105,7 +105,7 @@ const Post3 = ({ authorName }: IPost) => {
               -- Flopou! Ninguém pareceu. Já quando algo dá muito certo, é usado
               a gíria hit no lugar.
             </p>
-            <img className='giria' src={giria3} alt='' />
+            <img className='giria' src={giria3} alt='imagem da giria' />
             <h2>#4. CRINGE</h2>
             <p>
               O termo “cringe” ganhou uma intensa repercussão na internet de uns
@@ -116,7 +116,7 @@ const Post3 = ({ authorName }: IPost) => {
               -- Olha essa foto sua adolescente, amigo! <br />
               -- Aff, que cringe eu era.
             </p>
-            <img className='giria' src={giria4} alt='' />
+            <img className='giria' src={giria4} alt='imagem da giria' />
             <h2>#5. MEC</h2>
             <p>
               Gíria de origem carioca que significa estar tranquilo, suave, ok.
@@ -125,7 +125,7 @@ const Post3 = ({ authorName }: IPost) => {
               e streamers que a utilizam constantemente. Exemplo: “Acabei de
               enviar o trabalho, tá mec.”
             </p>
-            <img className='giria' src={giria5} alt='' />
+            <img className='giria' src={giria5} alt='imagem da giria' />
             Fonte: Twitter
             <h2>#6. HYPE</h2>
             <p>
@@ -135,7 +135,7 @@ const Post3 = ({ authorName }: IPost) => {
               "Muito hype para esse último filme da Marvel..." "Não sei como
               essa música ficou tão hypada assim."
             </p>
-            <img className='giria' src={giria6} alt='' />
+            <img className='giria' src={giria6} alt='imagem da giria' />
             Fonte: Twitter
             <h2>#7. TANKAR</h2>
             <p>
@@ -146,7 +146,7 @@ const Post3 = ({ authorName }: IPost) => {
               tem saído da bolha dos jogos, possui o significado de "suportar",
               "aguentar". Exemplo: “Impossível tankar isso, cara...”
             </p>
-            <img className='giria' src={giria7} alt='' />
+            <img className='giria' src={giria7} alt='imagem da giria' />
             Fonte: Twitter
             <h2>#8. STALKEAR</h2>
             <p>
@@ -156,7 +156,7 @@ const Post3 = ({ authorName }: IPost) => {
               tudo que a pessoa coloca em suas redes. Exemplo: "Fui stalkear
               ele(a) e curti uma foto antiga sem querer..."
             </p>
-            <img className='giria' src={giria8} alt='' />
+            <img className='giria' src={giria8} alt='imagem da giria' />
             Fonte: Twitter
             <h2>
               UFA! E ESSAS SÃO APENAS ALGUMAS DAS GÍRIAS QUE MAIS APARECEM POR

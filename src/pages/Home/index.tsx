@@ -21,22 +21,22 @@ const Home = () => {
       <MainWrapper>
         <FeaturedPostsWrapper>
           <FirstFeaturedPost>
-            <LastPost {...posts[0]}></LastPost>
+            <LastPost {...posts[4]} className='isFeatured'></LastPost>
           </FirstFeaturedPost>
           <OtherFeaturedPostsWrapper>
-            <LastPost {...posts[1]}></LastPost>
-            <LastPost {...posts[2]}></LastPost>
             <LastPost {...posts[3]}></LastPost>
+            <LastPost {...posts[2]}></LastPost>
+            <LastPost {...posts[0]}></LastPost>
           </OtherFeaturedPostsWrapper>
         </FeaturedPostsWrapper>
         <LastPostsWrapper>
           <h1 className='lastPostTitle'>Últimos Posts</h1>
           <LastPosts>
-            <LastPost {...posts[4]}></LastPost>
             <LastPost {...posts[1]} className='isOtherPost'></LastPost>
+            <LastPost {...posts[5]} className='isOtherPost'></LastPost>
             <LastPost {...posts[2]} className='isOtherPost'></LastPost>
+            <LastPost {...posts[4]} className='isOtherPost'></LastPost>
             <LastPost {...posts[0]} className='isOtherPost'></LastPost>
-            <LastPost {...posts[1]} className='isOtherPost'></LastPost>
             <LastPost {...posts[3]} className='isOtherPost'></LastPost>
           </LastPosts>
         </LastPostsWrapper>
