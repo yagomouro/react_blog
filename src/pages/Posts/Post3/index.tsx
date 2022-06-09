@@ -76,6 +76,7 @@ const Post3 = ({ authorName }: IPost) => {
               -- Old que não, achei os gráficos ruins.
             </p>
             <img className='giria' src={giria1} alt='' />
+            Fonte: Twitter
             <h2>#2. POSER</h2>
             <p>
               “Poser” é uma gíria destinada a alguém que finge gostar de alguma
@@ -125,6 +126,7 @@ const Post3 = ({ authorName }: IPost) => {
               enviar o trabalho, tá mec.”
             </p>
             <img className='giria' src={giria5} alt='' />
+            Fonte: Twitter
             <h2>#6. HYPE</h2>
             <p>
               É algo que está sendo muito comentado, que repercute bastante
@@ -134,6 +136,7 @@ const Post3 = ({ authorName }: IPost) => {
               essa música ficou tão hypada assim."
             </p>
             <img className='giria' src={giria6} alt='' />
+            Fonte: Twitter
             <h2>#7. TANKAR</h2>
             <p>
               A gíria "tankar" vem de "tank", que normalmente é uma classe de
@@ -144,6 +147,7 @@ const Post3 = ({ authorName }: IPost) => {
               "aguentar". Exemplo: “Impossível tankar isso, cara...”
             </p>
             <img className='giria' src={giria7} alt='' />
+            Fonte: Twitter
             <h2>#8. STALKEAR</h2>
             <p>
               A gíria vem do verbo "to stalk", verbo inglês que significa
@@ -153,6 +157,7 @@ const Post3 = ({ authorName }: IPost) => {
               ele(a) e curti uma foto antiga sem querer..."
             </p>
             <img className='giria' src={giria8} alt='' />
+            Fonte: Twitter
             <h2>
               UFA! E ESSAS SÃO APENAS ALGUMAS DAS GÍRIAS QUE MAIS APARECEM POR
               AÍ...{' '}
