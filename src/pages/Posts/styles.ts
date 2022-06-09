@@ -71,6 +71,14 @@ export const TextWrapper = styled.div`
     object-fit: cover;
     margin-top: 1rem;
   }
+
+  .giria {
+    width: 60rem;
+    height: 30rem;
+    margin: 2rem 0;
+    object-fit: contain;
+    object-position: left;
+  }
 `;
 
 export const LastPostsWrapper = styled.aside`
