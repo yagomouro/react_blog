@@ -58,12 +58,18 @@ export const TextWrapper = styled.div`
     font-size: 1.8rem;
     word-break: break-word;
     text-align: justify;
+    text-indent: 4rem;
   }
   .infografico {
     margin-top: 3rem;
   }
   .referencia {
     margin-top: 5rem;
+  }
+  .insideText {
+    height: 40rem;
+    object-fit: cover;
+    margin-top: 1rem;
   }
 `;
 

@@ -25,8 +25,8 @@ const Home = () => {
           </FirstFeaturedPost>
           <OtherFeaturedPostsWrapper>
             <LastPost {...posts[1]}></LastPost>
-            <LastPost {...posts[2]}></LastPost>
             <LastPost {...posts[3]}></LastPost>
+            <LastPost {...posts[2]}></LastPost>
           </OtherFeaturedPostsWrapper>
         </FeaturedPostsWrapper>
         <LastPostsWrapper>
